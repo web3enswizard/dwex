@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "DNS Resolver Extension",
+  "version": "1.0",
+  "description": "A Chrome extension to resolve DNS and open websites",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
